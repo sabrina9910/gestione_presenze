@@ -328,5 +328,5 @@ def main():
             print("Scelta non valida.")
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     main()
