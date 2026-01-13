@@ -95,7 +95,7 @@ class AttendanceManager:
     def take_attendance_for_list(self, course_id: str, date: str, participant_ids: List[str], statuses: Dict[str, str]) -> None:
         """
         statuses: dict participant_id -> status string
-        Se un partecipante non Ã¨ in statuses, default PRESENT.
+        Se un partecipante non è in statuses, default PRESENT.
         """
         for pid in participant_ids:
             status = statuses.get(pid, "PRESENT")

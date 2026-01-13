@@ -96,7 +96,7 @@ class ParticipantManager:
 
 class EnrollmentManager:
     def enroll(self, course_id: str, participant_id: str) -> bool:
-        """Ritorna True se iscrizione aggiunta, False se giÃ  presente."""
+        """Ritorna True se iscrizione aggiunta, False se già presente."""
         db = _load_db()
 
         exists = any(

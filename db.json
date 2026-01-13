@@ -1,5 +1,11 @@
 {
-    "courses": [],
+    "courses": [
+        {
+            "id": "C1",
+            "name": "Python",
+            "description": "Corso di sviluppo back end in Python"
+        }
+    ],
     "participants": [],
     "enrollments": [],
     "attendance": []
