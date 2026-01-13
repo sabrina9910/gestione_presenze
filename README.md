@@ -11,7 +11,7 @@ Il progetto permette di:
 
 I dati vengono salvati su file `db.json`.
 
----
+--- .
 
 ## ✅ Requisiti
 
